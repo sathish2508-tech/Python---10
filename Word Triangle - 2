@@ -1,0 +1,4 @@
+N = input()
+lenght = len(N)
+for char in range(lenght):
+    print(N[:lenght-char])
