@@ -1,0 +1,13 @@
+word = input()
+starting = word[0]
+value = starting.lower()
+lenght = len(word)
+for char in range(1, lenght):
+    remain_word = word[char]
+    uppercase = remain_word.upper()
+    lowercase = remain_word.lower()
+    if remain_word == uppercase:
+        value = value + "-" + lowercase
+    else:
+        value = value + lowercase
+print(value)
