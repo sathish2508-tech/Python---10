@@ -1,0 +1,5 @@
+N = int(input())
+for i in range(N):
+    times = (2*N-1)-2*i
+    space = 2*i
+    print("  " * space + "* " * times)
