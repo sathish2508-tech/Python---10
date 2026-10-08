@@ -1,0 +1,10 @@
+S1 = input()
+S2 = input()
+lenght = len(S1)
+combine = ""
+for i in range(lenght):
+    if i % 2 == 0:
+        combine = combine + S1[i]
+    else:
+        combine = combine + S2[i]
+print(combine)
