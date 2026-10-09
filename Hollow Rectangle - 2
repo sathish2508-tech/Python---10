@@ -1,0 +1,10 @@
+A = int(input())
+B = int(input())
+for i in range (1, A + 3):
+    if (i == 1) or (i == A + 2):
+        space = B
+        row = "+" + "-" * space + "+"
+    else:
+        space = B
+        row = "|" + " " * space + "|"
+    print(row)
