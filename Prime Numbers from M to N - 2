@@ -1,0 +1,9 @@
+N = int(input())
+M = int(input())
+for i in range(N, M + 1):
+    prime_num = 0
+    for j in range(2, i):
+        if i%j == 0:
+            prime_num = prime_num + 1 
+    if prime_num == 0:
+        print(i)
