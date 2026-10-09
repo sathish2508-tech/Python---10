@@ -1,0 +1,6 @@
+N = int(input())
+for i in range(N):
+    row = ""
+    for j in range(1, N + 1):
+        row = str(j) + " " + row
+    print(row)
