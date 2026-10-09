@@ -1,0 +1,15 @@
+M = int(input())
+N = int(input())
+con = False
+for i in range(M, N + 1):
+    A = len(str(i))
+    S = str(i)
+    sum = 0
+    for j in range(A):
+        R = S[j]
+        sum = sum + int(R) ** A 
+    if sum == i:
+        print(sum,end=" ")
+        con = True
+if not(con):
+    print("-1")
