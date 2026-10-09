@@ -1,0 +1,9 @@
+N = int(input())
+factors = 0
+for i in range(1, N + 1):
+    if (N % i) == 0:
+        factors = factors + 1 
+if factors > 2:
+    print("True")
+else:
+    print("False")
