@@ -1,0 +1,11 @@
+S = int(input())
+N = int(input())
+A = 0
+for k in range(1, N + 1):
+    A = A + k 
+T = A + S - 1 
+for i in range(N):
+    for j in range(N-i):
+        print(str(T), end=" ")
+        T = T - 1 
+    print()
