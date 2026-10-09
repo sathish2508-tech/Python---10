@@ -1,0 +1,8 @@
+N = int(input())
+M = int(input())
+k = 1
+for i in range(N):
+    for j in range(M):
+        print(k, end=" ")
+        k = k + 1
+    print()
