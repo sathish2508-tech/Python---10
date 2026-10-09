@@ -1,0 +1,7 @@
+M = int(input())
+N = int(input())
+for i in range(M):
+    row = ""
+    for j in range(N):
+        row = row + str(7 + j) + " "
+    print(row)
