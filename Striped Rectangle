@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+for i in range(A):
+    if i % 2 == 0:
+        print("+ " * B)
+    if i % 2 == 1:
+        print("- " * B)
